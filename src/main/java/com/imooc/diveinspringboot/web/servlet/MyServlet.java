@@ -7,8 +7,10 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-
-@WebServlet(urlPatterns = "/web/servlet")
+/**
+ * 同步servlet
+ */
+@WebServlet(urlPatterns = "/web/my/servlet")
 public class MyServlet extends HttpServlet {
 
     protected void doGet(HttpServletRequest req, HttpServletResponse resp)
