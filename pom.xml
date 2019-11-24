@@ -25,20 +25,20 @@
 		</dependency>
 
 		<!--		web-->
-<!--		<dependency>-->
-<!--			<groupId>org.springframework.boot</groupId>-->
-<!--			<artifactId>spring-boot-starter-web</artifactId>-->
-<!--&lt;!&ndash;			去除web模块中的tomcat容器&ndash;&gt;-->
-<!--&lt;!&ndash;			tomcat容器优先级高于jetty&ndash;&gt;-->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
+<!--			去除web模块中的tomcat容器-->
+<!--			tomcat容器优先级高于jetty-->
 <!--			<exclusions>-->
 <!--				<exclusion>-->
 <!--					<groupId>org.springframework.boot</groupId>-->
 <!--					<artifactId>spring-boot-starter-tomcat</artifactId>-->
 <!--				</exclusion>-->
 <!--			</exclusions>-->
-<!--		</dependency>-->
+		</dependency>
 
-<!--&lt;!&ndash;		添加jetty容器&ndash;&gt;-->
+<!--		更换为jetty容器-->
 <!--		<dependency>-->
 <!--			<groupId>org.springframework.boot</groupId>-->
 <!--			<artifactId>spring-boot-starter-jetty</artifactId>-->
@@ -46,10 +46,10 @@
 
 
 <!--        web优先级大于webflux-->
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-webflux</artifactId>
-		</dependency>
+<!--		<dependency>-->
+<!--			<groupId>org.springframework.boot</groupId>-->
+<!--			<artifactId>spring-boot-starter-webflux</artifactId>-->
+<!--		</dependency>-->
 
 
 

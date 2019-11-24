@@ -9,7 +9,9 @@ import org.springframework.boot.web.servlet.ServletComponentScan;
 public class DiveInSpringBootApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(DiveInSpringBootApplication.class, args);
+		SpringApplication.run(
+				DiveInSpringBootApplication.class, args
+		);
 	}
 
 }
